@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 0.875 rem;
+}
+
+.counter {
+  background: var(--gray-400);
+  border-radius: 63rem;
+
+  height: 1.1875rem;
+  padding: 0 0.5rem;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.counter span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.875rem;
+
+  color: var(--gray-200);
+}
